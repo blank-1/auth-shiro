@@ -83,7 +83,6 @@ public class MemberController extends BaseController {
 	/**
 	 * 改变Session状态
 	 * @param status
-	 * @param sessionId
 	 * @return
 	 */
 	@RequestMapping(value="changeSessionStatus",method=RequestMethod.POST)
